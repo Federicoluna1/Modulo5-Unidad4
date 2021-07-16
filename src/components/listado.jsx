@@ -28,11 +28,9 @@ export default function Listado() {
             })
 
         return (
-            <div className="container">
+            <div>
                 <h1>Libros disponibles</h1>
-                <ul>
-                    {lista}
-                </ul>
+                {lista}
             </div>
         )
     }

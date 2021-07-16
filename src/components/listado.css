@@ -1,0 +1,27 @@
+.container {
+    width: 200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    color: black;
+    background-color: white;
+    margin: 10px;
+    width: 350px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px black;
+    background-color: rgb(187, 47, 47);
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    margin: 60px 0px 0px 400px;
+}
