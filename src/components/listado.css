@@ -1,27 +1,48 @@
 .container {
-    width: 200px;
-    margin: 0 auto;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center;
     text-align: center;
+    background-color: rgb(255, 255, 255, 0.01); 
+    border-radius: 25px;
+    max-width: 90%;
+    margin: 10px 0 50px 0;
+    padding: 5px;
 }
 
 .card {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: stretch;
     align-items: center;
     color: black;
     background-color: white;
-    margin: 10px;
+    margin: 50px;
     width: 350px;
     height: 200px;
     border: 1px solid black;
-    border-radius: 5px;
-    box-shadow: 5px 5px 15px black;
-    background-color: rgb(187, 47, 47);
+    border-radius: 10px;
+    background-color: rgb(109, 97, 97);
 }
 
-h1 {
-    color: white;
+.cardLibro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 25px;
+    margin: 10px 0;
+    font-size: 14px;
+    font-weight: bolder;
     text-align: center;
-    margin: 60px 0px 0px 400px;
+    background-size: 200% auto;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.cardLibro:hover {
+   color: rgb(213, 88, 88);
+   text-decoration: none;
+   cursor: pointer;
 }
