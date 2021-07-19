@@ -1,48 +1,51 @@
+  
 .container {
     display: flex;
-    flex-flow: wrap;
+    flex-direction: row;
     justify-content: center;
-    align-items: center;
-    text-align: center;
-    background-color: rgb(255, 255, 255, 0.01); 
-    border-radius: 25px;
-    max-width: 90%;
-    margin: 10px 0 50px 0;
     padding: 5px;
-}
-
-.card {
-    display: flex;
-    flex-direction: column;
-    justify-content: stretch;
-    align-items: center;
-    color: black;
-    background-color: white;
-    margin: 50px;
-    width: 350px;
-    height: 200px;
-    border: 1px solid black;
-    border-radius: 10px;
-    background-color: rgb(109, 97, 97);
 }
 
 .cardLibro {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: stretch;
     align-items: center;
-    width: 80%;
-    height: 25px;
-    margin: 10px 0;
-    font-size: 14px;
-    font-weight: bolder;
-    text-align: center;
-    background-size: 200% auto;
-    color: rgb(0, 0, 0);
-    text-decoration: none;
+    color: rgb(245, 245, 245);
+    width: 250px;
+    height: 240px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-left: 10px;
+    background-color: rgb(109, 97, 97);
+    padding: 6px;
 }
 
-.cardLibro:hover {
-   color: rgb(213, 88, 88);
+.cardTitulo {
+    display: flex;
+    background-color: brown;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bolder;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 3%;
+    padding: 8px;
+}
+
+.cardTitulo:hover {
+   color: rgb(21, 9, 9);
    text-decoration: none;
    cursor: pointer;
 }
+
+.cardDescripcion {
+    text-align: justify;
+    font-size: 13px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 210px;
+    height: 40px;
+    margin: 0%;
+    padding: 2px;
+}
+
